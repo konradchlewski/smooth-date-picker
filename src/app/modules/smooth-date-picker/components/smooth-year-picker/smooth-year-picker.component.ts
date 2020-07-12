@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-smooth-year-picker',
+  selector: 'smooth-year-picker',
   templateUrl: './smooth-year-picker.component.html',
   styleUrls: ['./smooth-year-picker.component.scss']
 })

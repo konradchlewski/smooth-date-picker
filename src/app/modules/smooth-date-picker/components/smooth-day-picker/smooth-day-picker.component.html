@@ -1,1 +1,15 @@
-<p>smooth-day-picker works!</p>
+<div class="smooth-day-picker">
+    <div class="smooth-day-picker__header">
+        <div class="smooth-day-picker__header--day" *ngFor="let day of days">
+            {{day}}
+        </div>
+    </div>
+
+    <div class="smooth-day-picker__body">
+        <div class="smooth-day-picker__body--week" *ngFor="let week of calendar">
+            <div class="smooth-day-picker__body--day" *ngFor="let day of week">
+                {{day.day}}
+            </div>
+        </div>
+    </div>
+</div>
